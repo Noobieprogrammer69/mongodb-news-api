@@ -1,0 +1,140 @@
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: -350px;
+    position: relative;
+    top: 600px;
+}
+
+.article-container {
+    position: relative;
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    width: 700px;
+    background: linear-gradient(to bottom, #357bb8, #c4c3bc);
+}
+
+.new-cases {
+    position: relative;
+    top: 30px;
+    right: 150px;
+    border-right: 2px solid white;
+}
+
+.new-p {
+    position: relative;
+    right: 25px;
+}
+
+.new-critical {
+    position: relative;
+    right: 10px;
+}
+
+.new-deaths {
+    position: relative;
+    bottom: 50px;
+    left: 100px;
+}
+
+.for-title {
+    position: relative;
+    top: 200px;
+}
+
+.for-test {
+    background: #161623;
+}
+
+.icon {
+    position: relative;
+    top: 100px;
+    right: 730px;
+    color: white;
+    cursor: pointer;
+}
+
+.for__categories {
+    text-decoration: none;
+    position: relative;
+    top: 180px;
+    left: -300px;
+}
+
+.for__categories p {
+    color: white;
+    text-decoration: none;
+}
+
+.for__categories small {
+    color: white;
+    position: relative;
+    left: 100px;
+    bottom: 20px;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.for__categories-usa p{
+    color: white;
+    position: relative;
+    top: 160px;
+}
+
+@media screen and (max-width: 390px) {
+    .container {
+        display: flex;
+        justify-content: center;
+        margin-top: -300px;
+        position: relative;
+        top: 600px;
+        border-radius: 5px;
+    }
+
+    .new-cases {
+        position: relative;
+        right: 10px;
+        border-right: none;
+        padding-bottom: 5px;
+        border-bottom: 2px solid white;
+    }
+
+    .new-deaths {
+        position: relative;
+        bottom: -50px;
+        left: 0px;
+    }
+
+    .article-container {
+        display: flex;
+        width: 350px;
+        border-radius: 10px;
+    }
+
+    .icon {
+        position: absolute;
+        left: 10px;
+    }
+
+    .for__categories {
+        position: relative;
+        left: -50px;
+        top: 160px;
+    }
+
+    .for__categories p {
+        color: white;
+        position: relative;
+        left: -70px;
+    }
+
+    .for__categories-usa p {
+        color: white;
+        position: relative;
+        left: -10px;
+        top: 140px;
+        text-decoration: none;
+    }
+}

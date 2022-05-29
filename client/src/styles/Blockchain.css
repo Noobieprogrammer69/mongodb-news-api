@@ -1,0 +1,254 @@
+.blockchain__container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.blockchain__container-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 12px 4px 12px 4px;
+}
+
+.blockchain__contents {
+    display: flex;
+    flex: 1;
+    justify-content: start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.blockchian__title {
+    position: relative;
+    top: 200px;
+    right: 230px;
+    color: white;
+}
+
+.blockchain__p {
+    position: relative;
+    top: 150px;
+    right: 200px;
+    text-align: left;
+    margin-top: 5px;
+    color: white;
+}
+
+.connect__button {
+    position: relative;
+    right: 140px;
+    top: 180px;
+    display: flex;
+    flex-direction: row;
+    background: #2952e3;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.connect__p {
+    color: white;
+    cursor: pointer;
+}
+
+.blockchain__card {
+    position: relative;
+    left: 275px;
+    top: 50px;
+    height: 270px;
+    width: 400px;
+}
+
+.blockchain_contents {
+    position: relative;
+    top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.blockchain_contents input {
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.blue-glassmorphism {
+    background: rgb(39, 51, 89, 0.4);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.blockchain__send {
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.blockchain__button {
+    color: black;
+    width: 30%;
+    margin-top: 5px;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.blockchain__button:hover {
+    background-color: #7a8dd4;
+}
+
+.ethereum__container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 270px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.etheruem__container-container {
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    border-radius: 20px;
+    height: 200px;
+    margin: 5px 0 5px 0;
+    width: 90%;
+}
+
+.eth-card {
+    background-color:#a099ff;
+    background-image: 
+      radial-gradient(at 83% 67%, rgb(152, 231, 156) 0, transparent 58%), 
+      radial-gradient(at 67% 20%, hsla(357,94%,71%,1) 0, transparent 59%), 
+      radial-gradient(at 88% 35%, hsla(222,81%,65%,1) 0, transparent 50%), 
+      radial-gradient(at 31% 91%, hsla(9,61%,61%,1) 0, transparent 52%), 
+      radial-gradient(at 27% 71%, hsla(336,91%,65%,1) 0, transparent 49%), 
+      radial-gradient(at 74% 89%, hsla(30,98%,65%,1) 0, transparent 51%), 
+      radial-gradient(at 53% 75%, hsla(174,94%,68%,1) 0, transparent 45%);
+}
+
+.ethereum__contents {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.eteherum__contents-contents {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.etherum {
+    width: 10px;
+    height: 10px;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.ethereum-p {
+    color: white;
+    padding: 10px;
+}
+
+.transaction {
+    position: relative;
+    top: 500px;
+    right: 250px;
+}
+
+.ethereum__currentAccount {
+    color: white;
+}
+
+@media screen and (max-width: 390px) {
+    .blockchain__container {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .blockchain__container-container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding: 12px 4px 12px 4px;
+    }
+    
+    .blockchain__contents {
+        display: flex;
+        flex: 1;
+        justify-content: start;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    
+    .blockchian__title {
+        position: relative;
+        top: 70px;
+        right: -20px;
+        color: white;
+    }
+    
+    .blockchain__p {
+        position: relative;
+        top: 10px;
+        right: -50px;
+        text-align: left;
+        margin-top: 5px;
+        color: white;
+    }
+    
+    .connect__button {
+        position: relative;
+        right: -170px;
+        top: 30px;
+    }
+    
+    .connect__p {
+        color: white;
+        cursor: pointer;
+    }
+
+    .ethereum__container {
+        position: relative;
+        left: 5px;
+        top: 80px;
+    }
+
+    .blockchain__card {
+        position: relative;
+        top: 100px;
+        left: -1px;
+        height: 270px;
+        width: 350px;
+    }
+    
+    .blockchain_contents {
+        position: relative;
+        top: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .blockchain_contents input {
+        padding: 5px;
+        border-radius: 20px;
+    }
+}

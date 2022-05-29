@@ -1,0 +1,42 @@
+.transaction__container {
+    display: flex;
+}
+
+.latest__transactions {
+    width: 100%;
+    color: white;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    left: 40px;
+}
+
+.transaction__contents {
+   display: flex;
+   position: relative;
+   top: 100px;
+   margin: -20px;
+}
+
+.card__transaction {
+    background: #181918;
+    display: flex;
+    flex: 1;
+    max-width: 450px;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 390px) {
+    .latest__transactions {
+        width: 100%;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: relative;
+        top: 70px;
+        left: 60px;
+    }
+}
