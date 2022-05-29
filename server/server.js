@@ -34,6 +34,7 @@ mongoose.connect("mongodb+srv://login:loginproject@cluster0.qkj5e.mongodb.net/my
 //     res.status(500).send("Hello World");
 // });
 
+// MONGO_URI = mongodb+srv://login:loginproject@cluster0.qkj5e.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
 
 app.listen(port, () => {
     console.log(`app is running on ${port}`);
