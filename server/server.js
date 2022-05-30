@@ -28,7 +28,13 @@ mongoose.connect("mongodb+srv://login:loginproject@cluster0.qkj5e.mongodb.net/my
 }, (err) => {
     if(err) throw err;
     console.log('MongoDb is connected')
-})
+});
+
+app.get(express.static(path.join(__dirname, "/client")));
+
+app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, '/client/build', 'index.html'));
+});
 
 // app.get("/", (req, res) => {
 //     res.status(500).send("Hello World");
